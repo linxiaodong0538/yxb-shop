@@ -4,8 +4,18 @@
 			console.log('App Launch')
 		},
 		onShow: function() {
-			console.log('App Show')
+	this.$socketObj._initWebSocket()
+			   this.$http.POST({
+					 url:'banner/ad/adClassify',
+					 data:{
+						 a:'1'
+					 }
+				 })
+
+				 		this.$socketObj.close()
 		},
+
+
 		onHide: function() {
 			console.log('App Hide')
 		}
