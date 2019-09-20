@@ -1,9 +1,21 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/dome/index",
+			"path": "pages/Home/index",
 			"style": {
-				"navigationBarTitleText": "BEM"
+				"navigationBarTitleText": "首页",
+				"app-plus": {
+          "titleNView": false,
+          "bounce": "none",
+          "scrollIndicator": "none"
+        }
+			}
+			
+		},
+		{
+			"path": "pages/Manage/index",
+			"style": {
+				"navigationBarTitleText": "店铺管理"
 			}
 		},
 		{

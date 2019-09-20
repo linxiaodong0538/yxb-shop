@@ -24,4 +24,9 @@
 
 <style>
 	/*每个页面公共css */
+	page{
+		font-size: 28upx;
+		background: #F5F5F5;
+		box-sizing: border-box;
+	}
 </style>
